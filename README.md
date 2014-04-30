@@ -12,4 +12,4 @@ The above code stores 44 in $s0, -37 in $s1, then adds them and stores the resul
 # TASK #3: MIPS With The ori Instruction 
 
 #### Documentation
-I referenced Sabin Park's code while completing task 1 find out the notation of sw.
+I referenced Sabin Park's code while completing task 1 find out the notation of sw. I also referenced the textbook, and the previous lesson's PowerPoint when completing task 1.
