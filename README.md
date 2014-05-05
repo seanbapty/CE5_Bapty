@@ -16,6 +16,7 @@ add $s2, $s0, $s1  | 0x02119020
 sw $s2, 84($0)     | 0xAC120036
 ```
 ![alt tag](https://raw.githubusercontent.com/seanbapty/CE5_Bapty/master/part2output.JPG)
+
 The above output makes sense because -37 added to 44 equals 7. All these values are in the appropriate memory location.
 # TASK #3: MIPS With The ori Instruction 
 
