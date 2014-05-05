@@ -9,6 +9,12 @@ sw $s2, 84($0)
 ```
 The above code stores 44 in $s0, -37 in $s1, then adds them and stores the result in $s2. The final step stores the value of $s2 in hex location 54 (decimal 84).
 # TASK #2: Machine Code
+```
+addi $s0, $0, 44   | 0x2010002C
+addi $s1, $0, -37  | 0x2011FFDB
+add $s2, $s0, $s1  | 0x02119020
+sw $s2, 84($0)     | 0xAC120036
+```
 # TASK #3: MIPS With The ori Instruction 
 
 #### Documentation
