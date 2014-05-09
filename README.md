@@ -22,3 +22,5 @@ The above output makes sense because -37 added to 44 equals 7. All these values 
 
 #### Documentation
 I referenced Sabin Park's code while completing task 1 find out the notation of sw. I also referenced the textbook, and the previous lesson's PowerPoint when completing task 1.
+While completing part 2 I checked my answers with Cassi McPeek's README on GitHub.
+I referenced Sabin Park's code when completing part 3. It was from the book and his code that I got the idea to add a zero extender and a multiplexer to implement it.
