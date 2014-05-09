@@ -13,7 +13,7 @@ The above code stores 44 in $s0, -37 in $s1, then adds them and stores the resul
 addi $s0, $0, 44   | 0x2010002C
 addi $s1, $0, -37  | 0x2011FFDB
 add $s2, $s0, $s1  | 0x02119020
-sw $s2, 84($0)     | 0xAC120036
+sw $s2, 84($0)     | 0xAC120056
 ```
 ![alt tag](https://raw.githubusercontent.com/seanbapty/CE5_Bapty/master/part2output.JPG)
 
