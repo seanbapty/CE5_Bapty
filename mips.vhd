@@ -309,7 +309,8 @@ begin
   ze: zeroext port map(instr(15 downto 0), zerosignal);
 
   -- ALU logic
-  finalsignalmux: mux2 generic map(32) port map(signimm,zeroSignal, alusrc(1), signalExtendFinal);  ---------------ADDED!
+  -- Updated to add signal to multiplexer for zeroext
+  finalsignalmux: mux2 generic map(32) port map(signimm,zeroSignal, alusrc(1), signalExtendFinal); 
   srcbmux: mux2 generic map(32) port map(writedata, signalExtendFinal, alusrc(0), srcb);
   mainalu:  alu port map(srca, srcb, alucontrol, aluout, zero);
 end;
