@@ -27,6 +27,18 @@ In order to implement a ORI, the MIPS processer had to include a zero extenter. 
 ![alt tag](https://raw.githubusercontent.com/seanbapty/CE5_Bapty/master/alu.jpg)
 ## Main Decoder Modification
 ![alt tag](https://raw.githubusercontent.com/seanbapty/CE5_Bapty/master/MainDecoderTable.jpg)
+## Waveform
+The below waveform ORIs performs the given testbench command
+```
+ori $s3, $s2, x8000
+```
+or as implemented in VHDL
+```
+instr <= X"36538000";
+```
+The output on register 19 is the "or" of 8000 and $s2. This was checked manually with a calculator and the same result was achieved.
+
+![alt tag](https://raw.githubusercontent.com/seanbapty/CE5_Bapty/master/oriWorking.JPG)
 #### Documentation
 I referenced Sabin Park's code while completing task 1 find out the notation of sw. I also referenced the textbook, and the previous lesson's PowerPoint when completing task 1.
 While completing part 2 I checked my answers with Cassi McPeek's README on GitHub.
