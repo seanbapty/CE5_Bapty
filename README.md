@@ -19,7 +19,10 @@ sw $s2, 84($0)     | 0xAC120036
 
 The above output makes sense because -37 added to 44 equals 7. All these values are in the appropriate memory location.
 # TASK #3: MIPS With The ori Instruction 
-
+## ALU Schematic Modification
+In order to implement a ORI, the MIPS processer had to include a zero extenter. In order to choose when to utulize the zero extender a two input multiplexer was needed. Additionally, the multiplexer needed to be driven by the ALUSrc signal, and therefore this signal had to be modified from one bit to two bits. 
+## ALU Decoder Table Modification
+## Main Decoder Modification
 #### Documentation
 I referenced Sabin Park's code while completing task 1 find out the notation of sw. I also referenced the textbook, and the previous lesson's PowerPoint when completing task 1.
 While completing part 2 I checked my answers with Cassi McPeek's README on GitHub.
